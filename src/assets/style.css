@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap');
+
+body,
+html {
+    font-family: 'Satoshi', sans-serif;
+}
+
+.classic-font {
+    font-family: 'Satoshi', sans-serif;
+}
+
+/* style.css */
+
+/* Base font style */
+.classic-font {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1a1a1a;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #7000ff;
+    border-color: #7000ff;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #5700cc;
+    border-color: #5700cc;
+}
+
+.btn-outline-primary {
+    color: #7000ff;
+    border-color: #7000ff;
+    font-weight: 500;
+}
+
+.btn-outline-primary:hover {
+    background-color: #7000ff;
+    color: #fff;
+}
+
+/* Hero Section */
+section.text-center.py-5.bg-white h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+section.text-center.py-5.bg-white p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Card Section */
+.card {
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.btn-link {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+.bg-light {
+    background-color: #f9f9f9 !important;
+}
+
+section.bg-light h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+section.bg-light p {
+    font-size: 1rem;
+    color: #444;
+}
+
+/* Value Propositions */
+.bi-check-circle-fill {
+    font-size: 1.2rem;
+}
+
+/* Testimonials */
+.blockquote {
+    font-size: 1.05rem;
+    font-style: italic;
+    color: #333;
+}
+
+.blockquote-footer {
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+/* CTA Section */
+.bg-dark {
+    background-color: #1c1c1e !important;
+}
+
+.bg-dark h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.bg-dark p {
+    font-size: 1rem;
+    color: #d4d4d4;
+}
+
+.custom-icon {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #0d6efd 30%, #ffffff 90%);
+    box-shadow: 0 0 6px rgba(13, 110, 253, 0.4);
+    margin-top: 6px;
+    flex-shrink: 0;
+  }
+  
+  .custom-icon .dot {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: 50%;
+  }
+  
