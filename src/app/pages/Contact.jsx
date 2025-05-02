@@ -85,6 +85,7 @@ export const Contact = () => {
                                         type="text"
                                         className="form-control"
                                         name="fullName"
+                                        id='fullname'
                                         value={formData.fullName}
                                         onChange={handleChange}
                                         required
@@ -96,6 +97,7 @@ export const Contact = () => {
                                         type="email"
                                         className="form-control"
                                         name="email"
+                                        id='email'
                                         value={formData.email}
                                         onChange={handleChange}
                                         required
@@ -106,6 +108,7 @@ export const Contact = () => {
                                     <textarea
                                         className="form-control"
                                         name="message"
+                                        id='message'
                                         rows="4"
                                         value={formData.message}
                                         onChange={handleChange}
