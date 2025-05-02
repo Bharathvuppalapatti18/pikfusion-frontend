@@ -78,6 +78,7 @@ export const Contact = () => {
                         <div className="col-md-6">
                             <p>Your technology partner for seamless digital transformation.<br />Connect with us now</p>
                             <form method='post' action={'https://api.web3forms.com/submit'}>
+                                 <input type="hidden" name="access_key" value={'bf201f68-3f1d-4448-9b59-870b19fb0944'} />
                                 <div className="mb-3">
                                     <label htmlFor="fullName" className="form-label">Full Name *</label>
                                     <input
