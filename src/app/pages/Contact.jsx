@@ -85,7 +85,7 @@ export const Contact = () => {
                                         type="text"
                                         className="form-control"
                                         name="fullName"
-                                        id='fullname'
+                                        id='fullName'
                                         value={formData.fullName}
                                         onChange={handleChange}
                                         required
