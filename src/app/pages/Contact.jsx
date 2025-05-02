@@ -84,7 +84,7 @@ export const Contact = () => {
                                     <input
                                         type="text"
                                         className="form-control"
-                                        id="fullName"
+                                        name="fullName"
                                         value={formData.fullName}
                                         onChange={handleChange}
                                         required
@@ -95,7 +95,7 @@ export const Contact = () => {
                                     <input
                                         type="email"
                                         className="form-control"
-                                        id="email"
+                                        name="email"
                                         value={formData.email}
                                         onChange={handleChange}
                                         required
@@ -105,7 +105,7 @@ export const Contact = () => {
                                     <label htmlFor="message" className="form-label">Message *</label>
                                     <textarea
                                         className="form-control"
-                                        id="message"
+                                        name="message"
                                         rows="4"
                                         value={formData.message}
                                         onChange={handleChange}
