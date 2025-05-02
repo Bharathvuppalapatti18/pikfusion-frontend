@@ -77,7 +77,7 @@ export const Contact = () => {
                         {/* Contact Form */}
                         <div className="col-md-6">
                             <p>Your technology partner for seamless digital transformation.<br />Connect with us now</p>
-                            <form onSubmit={handleSubmit}>
+                            <form method='post' action={'https://api.web3forms.com/submit'}>
                                 <div className="mb-3">
                                     <label htmlFor="fullName" className="form-label">Full Name *</label>
                                     <input
